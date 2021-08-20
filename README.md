@@ -12,7 +12,7 @@ For run the application do the follows:
 * Go to http://localhost:8083/hello. You should see the same page as if you went to http://localhost:8082;
 * Go to http://localhost:8083/person/people. You should see the list of Spanner database recordings.
   (For this step your Google Platform Account should be connected to Spanner Cloud database connection to which is configured in this [file](https://github.com/karencarter29/test-gateway-api/blob/main/person-service/src/main/resources/application.properties));
-* Choose any id from recordings list and go to http://localhost:8083/person/hello/[chosen id]. You should see greating of person you choosed from database table.
+* Choose any id from recordings list and go to http://localhost:8083/person/hello/[chosen-id]. You should see greating of person you chose from database table.
 
 All this steps should show together work of follows techniligies:
 
